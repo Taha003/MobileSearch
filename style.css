@@ -1,0 +1,37 @@
+
+.srcbar{
+    text-align: center;
+    margin-top: 30vh;
+    padding: 10px;
+
+    
+    
+}
+
+#mobName{
+    padding: 7px;
+    border-radius: 7px;
+    margin-bottom: 4px;
+}
+
+#mod{
+    padding: 7px;
+    border-radius: 7px;
+    margin-bottom: 4px;
+}
+
+.srch{
+    padding: 7px;
+    border-radius: 7px;
+    margin-bottom: 4px;
+}
+
+#parent{
+    text-align: center;
+    padding: 10px;
+}
+
+.head{
+    text-align: center;
+    
+}
