@@ -82,11 +82,17 @@ function dropdown(){
 }
 
 function srch(){
-    let res=mobiles[mob.value][model.value];
-    res1=JSON.stringify(res);
-    document.write(res1+"</br>")
+    let res =mobiles[mob.value][model.value];
+        
+    let parent = document.getElementById("parent");
+    parent.innerHTML = "";
 
-    
+    parent.innerHTML = `
+    <p> <span style="color: blue;" >Ram : </span>  ${res.ram}</p>
+        <p> <span style="color: blue;" >Camera : </span>${res.camera}</p>
+        <p> <span style="color: blue;" >Storage : </span> ${res.storage}</p>
+    `
+    console.log(parent);
 }
 
 
